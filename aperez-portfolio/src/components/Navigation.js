@@ -2,10 +2,8 @@
 import React from 'react'
 
 
+
 function Navigation({ currentPage, handlePageChange})  {
-
-
-
 
     return (
         <ul className="nav nav-tabs">
@@ -13,7 +11,7 @@ function Navigation({ currentPage, handlePageChange})  {
             <a
               href="#about"
               onClick={() => handlePageChange('About')}
-              //*  TODO: BONUS: Add a comment explaining what kind of operator this is and what it is checking for
+              
     
               className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
             >

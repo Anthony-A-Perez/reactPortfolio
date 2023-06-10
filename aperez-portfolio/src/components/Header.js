@@ -1,17 +1,12 @@
 
-
-
-
-function Header(props) {
-    return (
-      <div>
-        {/* Header content */}
+const Header = () => {
+  return ( 
+    <div>
         <h1>Header</h1>
-  
-        {/* Render child components */}
-        {props.children}
       </div>
-    );
-  }
+   );
+}
  
 export default Header;
+
+
