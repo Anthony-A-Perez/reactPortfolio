@@ -8,40 +8,40 @@ function Portfolio() {
     {
       img: require("./images/note_taker.png"),
       title: "Note Taker App",
-      deployLink: "https://https://ap-note-taker.herokuapp.com/",
-      gitLink: "https://github.com/project1",
+      deployLink: "https://ap-note-taker.herokuapp.com/",
+      gitLink: "https://github.com/Anthony-A-Perez/noteTaker",
     },
     {
-      img: "project2.jpg",
-      title: "Project 2",
-      deployLink: "https://example.com/project2",
-      gitLink: "https://github.com/project2",
+      img: require("./images/tech-blog.png"),
+      title: "Tech Blog App",
+      deployLink: "https://tech-blog-ap.herokuapp.com/dashboard",
+      gitLink: "https://github.com/Anthony-A-Perez/techBlog",
     },
     {
-      img: "project2.jpg",
-      title: "Project 2",
-      deployLink: "https://example.com/project2",
-      gitLink: "https://github.com/project2",
+      img: require("./images/weather-dashboard.png"),
+      title: "Weather App",
+      deployLink: "https://anthony-a-perez.github.io/Weather-Dashboard/",
+      gitLink: "https://github.com/Anthony-A-Perez/Weather-Dashboard",
     },
     {
-      img: "project2.jpg",
-      title: "Project 2",
-      deployLink: "https://example.com/project2",
-      gitLink: "https://github.com/project2",
+      img: require("./images/workday-scheduler.png"),
+      title: "Work Day Scheduler",
+      deployLink: "https://anthony-a-perez.github.io/Work-Day-Scheduler/",
+      gitLink: "https://github.com/Anthony-A-Perez/Work-Day-Scheduler",
     },
     {
-      img: "project2.jpg",
-      title: "Project 2",
-      deployLink: "https://example.com/project2",
-      gitLink: "https://github.com/project2",
+      img: require("./images/nametag.png"),
+      title: "Nametag Generator",
+      deployLink: "https://anthony-a-perez.github.io/nametag/",
+      gitLink: "https://github.com/Anthony-A-Perez/nametag",
     },
     {
-      img: "project2.jpg",
+      img: require("./images/prework_study_guide.png"),
       title: "Project 2",
-      deployLink: "https://example.com/project2",
-      gitLink: "https://github.com/project2",
+      deployLink: "https://anthony-a-perez.github.io/prework-study-guide/",
+      gitLink: "https://github.com/Anthony-A-Perez/prework-study-guide",
     },
-    // Add more project objects as needed
+  
   ];
 
   return (
