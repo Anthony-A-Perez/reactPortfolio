@@ -19,3 +19,11 @@ This is a portfolio app built using React and Bootstrap. It showcases an 'About'
 
 1. Start the development server: `npm start`
 2. Open the app in your browser at [http://localhost:3000](http://localhost:3000)
+
+## Deployment
+
+<https://anthony-a-perez.github.io/reactPortfolio/>
+
+## Repository
+
+<https://github.com/Anthony-A-Perez/reactPortfolio>
