@@ -1,5 +1,3 @@
-
-
 import React from "react";
 import Project from "./Project";
 
@@ -41,24 +39,22 @@ function Portfolio() {
       deployLink: "https://anthony-a-perez.github.io/prework-study-guide/",
       gitLink: "https://github.com/Anthony-A-Perez/prework-study-guide",
     },
-  
   ];
 
   return (
     <div>
       <h1>Portfolio</h1>
-      <div className='d-flex justify-content-between flex-row'>
-           {projectData.map((project, index) => (
-        <Project
-          key={index}
-          img={project.img}
-          title={project.title}
-          deployLink={project.deployLink}
-          gitLink={project.gitLink}
-        />
-      ))}
+      <div className="d-flex justify-content-between flex-row">
+        {projectData.map((project, index) => (
+          <Project
+            key={index}
+            img={project.img}
+            title={project.title}
+            deployLink={project.deployLink}
+            gitLink={project.gitLink}
+          />
+        ))}
       </div>
-   
     </div>
   );
 }

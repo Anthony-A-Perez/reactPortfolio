@@ -13,7 +13,7 @@ function App() {
         <div className="project-container">
           <Container />
         </div>
-        <Footer className='fixed-bottom'/>
+        <Footer className="fixed-bottom" />
       </div>
     </div>
   );

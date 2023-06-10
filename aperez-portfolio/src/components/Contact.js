@@ -1,27 +1,18 @@
 const Contact = () => {
-    return ( 
-
-
-      <div className='create'>
-        <h1>Contact</h1>
-        <form>
+  return (
+    <div className="create">
+      <h1>Contact</h1>
+      <form>
         <label>Name:</label>
-        <input
-          type="text"
-        />
-         <label>email:</label>
-        <input
-          type="text"
-        />
+        <input type="text" />
+        <label>email:</label>
+        <input type="text" />
         <label>Message:</label>
-        <textarea>
-
-        </textarea>
+        <textarea></textarea>
         <button>Submit</button>
       </form>
-      </div>
+    </div>
+  );
+};
 
-     );
-}
- 
 export default Contact;
